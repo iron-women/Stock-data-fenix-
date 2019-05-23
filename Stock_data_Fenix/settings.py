@@ -72,17 +72,17 @@ WSGI_APPLICATION = 'Stock_data_Fenix.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'stock',
-#         'HOST': 'localhost',
-#         'PORT': 3306,
-#         'USER': 'root',
-#         'PASSWORD': '123456',
-#         'charset': 'utf8'
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'stock',
+        'HOST': 'localhost',
+        'PORT': 3306,
+        'USER': 'root',
+        'PASSWORD': '123456',
+        'charset': 'utf8'
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
